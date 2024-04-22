@@ -48,6 +48,6 @@ def demo(x, y, a):
     plt.show()
 
 
-demo(npy.array(x1), npy.array(y1), npy.array([15, 16, 11, 8, 10, 5, 3, 7, 13, 4, 1]))
-demo(npy.array(x2), npy.array(y2), npy.array([11, 13, 17, 6, 7, 1, 9, 19, 2, 10, 21]))
-demo(npy.array(x3), npy.array(y3), npy.array([2, 4, 11, 3, 6, 12, 9, 18, 17, 10, 21]))
+demo(npy.array(x1), npy.array(y1), npy.array(x1))
+demo(npy.array(x2), npy.array(y2), npy.array(x2))
+demo(npy.array(x3), npy.array(y3), npy.array(x3))
